@@ -1,0 +1,138 @@
+/* global */
+
+.outer {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+a {
+    color: rgba(66,64,60,1);
+    transition: .5s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(93,89,84,0.6);
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    background-color: rgba(237,225,195,1);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 15px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    margin: 15px;
+    margin-top: 7px;
+}
+
+p span {
+    text-decoration: line-through;
+}
+
+/* heading */
+.flex-container {
+    display: flex;
+    background-color: rgba(219,196,162,0.5);
+    border: 1px solid rgba(145,143,134,0.5); 
+    width: 50%;
+    min-width: 328px;
+    max-width: 500px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.flex-item {
+    margin: 5px;
+}
+
+h1.flex-item {
+    color: rgba(131,117,97,1);
+    font-style: italic;
+}
+
+img.flex-item {
+    width: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+/* line 2 and 3 */
+
+.flex-container-line2, .flex-container-line3 {
+    display: flex;
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+img.flex-item-line2 {
+    flex: 1 1 25%;
+    height: 128px;
+    width: 128px;
+}
+
+span.flex-item-line2 {
+    flex: 1 1 75%;
+    min-width: 180px;
+}
+
+#byf {
+    flex: 1 1 50%;
+    min-width: 144px;
+}
+
+#dfi {
+    flex: 1 1 50%;
+    min-width: 144px;
+}
+
+span.flex-item-line2, span.flex-item-line3 {
+    border: 1px solid rgba(145,143,134,0.5); 
+    background-color: rgba(219,196,162,0.5);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.flex-item-line2 ul {
+    margin: 5px 0px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.flex-container-socials {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: rgba(219,196,162,0.5);
+    border: 1px solid rgba(145,143,134,0.5); 
+    width: 25%;
+    min-width: 250px;
+    max-width: 260px;
+    height: auto;
+}
+
+div.flex-item-socials > ul {
+    margin-top: 5px;   
+}
+
+
